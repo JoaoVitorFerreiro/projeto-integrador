@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun create:*)",
+      "Bash(bun add:*)",
+      "Bash(bunx tailwindcss init:*)",
+      "Bash(bun dev)",
+      "Bash(mv:*)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(mkdir:*)",
+      "Bash(bun remove:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
