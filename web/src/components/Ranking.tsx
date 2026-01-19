@@ -23,19 +23,6 @@ export default function Ranking() {
     }
   };
 
-  const getRankingLabel = (ranking: number) => {
-    switch (ranking) {
-      case 1:
-        return 'Campeão';
-      case 2:
-        return 'Vice-Campeão';
-      case 3:
-        return 'Terceiro Lugar';
-      default:
-        return '';
-    }
-  };
-
   const getRankingBgColor = (ranking: number) => {
     switch (ranking) {
       case 1:

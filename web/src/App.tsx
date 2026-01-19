@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Ranking from './components/Ranking';
 import Projects from './components/Projects';
-import Team from './components/Team';
+// import Team from './components/Team';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 import ScrollProgress from './components/ScrollProgress';
