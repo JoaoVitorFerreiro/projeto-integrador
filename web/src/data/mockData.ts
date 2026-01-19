@@ -1,27 +1,24 @@
 export const courseInfo = {
   name: "Técnico em Informática",
-  duration: "1,5 anos / 3 semestres",
+  duration: "1 ano e meio (18 meses)",
   schedule: "Segunda a Sexta, 19h-22h30",
-  whatsapp: "5513988887777", // Ajustar número real
+  whatsapp: "5513991307160",
   benefits: [
     "Certificação Técnica",
     "Projetos Reais",
     "Mentoria Profissional",
     "Infraestrutura Moderna",
-    "Horário Noturno",
     "Empregabilidade"
   ]
 };
 
 export const schoolInfo = {
   name: "Escola Técnica Adélia",
-  address: "Endereço da escola",
-  phone: "(13) 9888-7777",
-  email: "contato@etecadelia.com.br",
+  address: "Avenida Miguel Mussa Gaze, 247, Santa Rosa",
+  phone: "(13) 99130-7160",
+  email: "jvferreiro1@gmail.com",
   social: {
-    instagram: "https://instagram.com/etecadelia",
-    facebook: "https://facebook.com/etecadelia",
-    linkedin: "https://linkedin.com/company/etecadelia",
-    youtube: "https://youtube.com/@etecadelia"
+    instagram: "https://www.instagram.com/oficialescolatecnicaadelia?igsh=MWtmbTB3eGw5d2lkeA==",
+    youtube: "https://youtube.com/@escolatecnicaadelia?si=ut-62-Pu82IR1KVa"
   }
 };

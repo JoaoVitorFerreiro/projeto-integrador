@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Clock, Calendar, Check, MessageCircle, Code2, Database, Cpu } from 'lucide-react';
+import { Calendar, Check, MessageCircle, Code2, Database, Cpu } from 'lucide-react';
 import { courseInfo } from '../data/mockData';
 
 const floatingIcons = [
@@ -65,37 +65,21 @@ export default function CTA() {
         </motion.div>
 
         {/* Info Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 max-w-4xl mx-auto">
+        <div className="flex justify-center mb-12 max-w-4xl mx-auto">
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6"
+            className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 w-full max-w-md"
           >
-            <div className="flex items-center gap-4 mb-3">
+            <div className="flex items-start gap-4">
               <div className="bg-secondary-yellow rounded-lg p-3">
                 <Calendar className="text-gray-900" size={24} />
               </div>
               <div>
-                <h3 className="text-white font-bold text-lg">Duração</h3>
-                <p className="text-white/90">{courseInfo.duration}</p>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6"
-          >
-            <div className="flex items-center gap-4 mb-3">
-              <div className="bg-secondary-yellow rounded-lg p-3">
-                <Clock className="text-gray-900" size={24} />
-              </div>
-              <div>
-                <h3 className="text-white font-bold text-lg">Horário</h3>
-                <p className="text-white/90">{courseInfo.schedule}</p>
+                <h3 className="text-white font-bold text-lg mb-2">Duração</h3>
+                <p className="text-white/90">Presencial: 1 ano e meio (18 meses)</p>
+                <p className="text-white/90">EAD: Mínimo 6 meses</p>
               </div>
             </div>
           </motion.div>

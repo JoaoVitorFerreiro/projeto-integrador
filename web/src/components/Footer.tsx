@@ -1,26 +1,10 @@
 import { motion } from 'framer-motion';
-import { Instagram, Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
 import { schoolInfo } from '../data/mockData';
 
 const socialLinks = [
   { Icon: Instagram, url: schoolInfo.social.instagram, label: 'Instagram' },
-  { Icon: Facebook, url: schoolInfo.social.facebook, label: 'Facebook' },
-  { Icon: Linkedin, url: schoolInfo.social.linkedin, label: 'LinkedIn' },
   { Icon: Youtube, url: schoolInfo.social.youtube, label: 'YouTube' },
-];
-
-const schoolLinks = [
-  { label: 'Sobre a Escola', href: '#' },
-  { label: 'Infraestrutura', href: '#' },
-  { label: 'Corpo Docente', href: '#' },
-  { label: 'Cursos Oferecidos', href: '#' },
-];
-
-const studentLinks = [
-  { label: 'Portal do Aluno', href: '#' },
-  { label: 'Calendário Acadêmico', href: '#' },
-  { label: 'Biblioteca Digital', href: '#' },
-  { label: 'Suporte Técnico', href: '#' },
 ];
 
 export default function Footer() {
@@ -29,7 +13,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           {/* Logo and Social */}
           <div>
             <motion.div
@@ -64,40 +48,6 @@ export default function Footer() {
                 </motion.a>
               ))}
             </div>
-          </div>
-
-          {/* Escola Links */}
-          <div>
-            <h4 className="text-lg font-bold mb-4">Escola</h4>
-            <ul className="space-y-2">
-              {schoolLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors duration-300 text-sm"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Para Alunos Links */}
-          <div>
-            <h4 className="text-lg font-bold mb-4">Para Alunos</h4>
-            <ul className="space-y-2">
-              {studentLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors duration-300 text-sm"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
           </div>
 
           {/* Contato */}

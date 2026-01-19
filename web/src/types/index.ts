@@ -1,8 +1,9 @@
 export interface Student {
   name: string;
-  photo: string;
-  github: string;
-  linkedin: string;
+  role: 'Líder' | 'Backend' | 'Frontend' | 'FullStack';
+  photo?: string;
+  github?: string;
+  linkedin?: string;
 }
 
 export interface Stack {
@@ -14,12 +15,14 @@ export interface Stack {
 
 export interface Project {
   id: string;
+  groupNumber: number;
   name: string;
   description: string;
   image: string;
   technologies: string[];
   students: Student[];
   stack: Stack;
-  githubUrl: string;
-  liveUrl?: string;
+  githubUrl?: string;
+  liveUrl: string;
+  ranking?: number; // 1, 2, 3 para top 3 projetos
 }
