@@ -16,6 +16,7 @@ export interface Stack {
 export interface Project {
   id: string;
   groupNumber: number;
+  semester: '2025.2' | '2025.1';
   name: string;
   description: string;
   image: string;

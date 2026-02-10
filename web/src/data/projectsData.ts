@@ -4,6 +4,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-01',
     groupNumber: 1,
+    semester: '2025.2',
     name: 'Sistema Gerenciador de Estacionamento',
     description: 'Solução inteligente para gestão de estacionamentos com integração IoT. Utiliza sensores, LEDs e Arduino com controle de motor para automação completa. Monitora vagas em tempo real, controla cancelas automaticamente e oferece relatórios detalhados de ocupação.',
     image: '/Grupo01.png',
@@ -32,6 +33,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-02',
     groupNumber: 2,
+    semester: '2025.2',
     name: 'Sistema de Estoque Farmacêutico',
     description: 'Plataforma completa para gerenciamento farmacêutico hospitalar. Controla entrada e saída de medicamentos com diferentes níveis de acesso para médicos, farmacêuticos e enfermeiros. Inclui rastreamento de lotes, alertas de vencimento e relatórios de consumo.',
     image: '/Grupo02.png',
@@ -60,6 +62,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-04',
     groupNumber: 4,
+    semester: '2025.2',
     name: 'Odonto Prime - Clínica Odontológica',
     description: 'Sistema completo para clínicas odontológicas com CRM integrado. Gerencia venda de planos odontológicos, agendamento inteligente de consultas, histórico de pacientes e controle financeiro. Interface moderna para dentistas e pacientes.',
     image: '/Grupo04.png',
@@ -88,6 +91,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-05',
     groupNumber: 5,
+    semester: '2025.2',
     name: 'Mania Cookie - E-commerce de Cookies',
     description: 'Plataforma de e-commerce especializada em confeitaria artesanal. Sistema completo de vendas online com catálogo de produtos, carrinho de compras, gestão de pedidos e entregas. Inclui CRM para fidelização de clientes e controle de estoque de ingredientes.',
     image: '/Grupo05.png',
@@ -116,6 +120,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-07',
     groupNumber: 7,
+    semester: '2025.2',
     name: 'Sistema de Gerenciamento de EPI',
     description: 'Solução profissional para gestão de Equipamentos de Proteção Individual. Controla vencimentos, organiza distribuição por funcionário, gera alertas automáticos e mantém histórico completo de entregas. Ideal para empresas que priorizam segurança do trabalho.',
     image: '/Grupo07.png',
@@ -146,6 +151,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-08',
     groupNumber: 8,
+    semester: '2025.2',
     name: 'CapsuBel - E-commerce de Encapsulados',
     description: 'Loja virtual especializada em produtos capilares femininos. Oferece cápsulas de tratamento capilar com sistema de vendas online, gerenciamento de estoque e CRM completo. Inclui sistema de recomendações personalizadas e programa de fidelidade.',
     image: '/Grupo08.png',
@@ -174,6 +180,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-09',
     groupNumber: 9,
+    semester: '2025.2',
     name: 'Unique - E-commerce de Moda Feminina',
     description: 'Plataforma moderna de vendas de roupas femininas. Sistema completo com catálogo virtual, gestão de estoque por tamanho e cor, controle de vendas e CRM integrado. Interface elegante com filtros avançados e sistema de avaliações de produtos.',
     image: '/Grupo09.png',
@@ -202,6 +209,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-10',
     groupNumber: 10,
+    semester: '2025.2',
     name: 'Sistema de Depósito de Medicamentos',
     description: 'Sistema avançado para controle de depósito farmacêutico. Gerencia entrada e saída de medicamentos com controle de acesso por perfil (médicos, farmacêuticos, enfermeiros). Oferece rastreabilidade completa, alertas de validade e relatórios de movimentação.',
     image: '/Grupo10.png',
@@ -230,6 +238,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-11',
     groupNumber: 11,
+    semester: '2025.2',
     name: 'Sistema Farmacêutico Hospitalar',
     description: 'Plataforma robusta para gestão farmacêutica em ambiente hospitalar. Controla estoque de medicamentos, gerencia prescrições médicas e medicamentos controlados. Sistema de autorizações por perfil, rastreamento de lotes e geração de relatórios gerenciais.',
     image: '/Grupo11.png',
@@ -259,6 +268,7 @@ export const projects: Project[] = [
   {
     id: 'grupo-12',
     groupNumber: 12,
+    semester: '2025.2',
     name: 'Sistema de Segurança do Trabalho',
     description: 'Solução completa para gestão de segurança ocupacional. Controla EPIs, gerencia treinamentos obrigatórios, realiza análise de riscos e mantém documentação de segurança. Sistema de alertas para renovações e vencimentos, garantindo conformidade com normas regulamentadoras.',
     image: '/Grupo12.png',
@@ -289,6 +299,156 @@ export const projects: Project[] = [
     },
     liveUrl: 'https://grupo12projeto20252.escolatecnicaadelia.info',
   },
+  {
+    id: 'grupo-01-2025-1',
+    groupNumber: 1,
+    semester: '2025.1',
+    name: 'Sistema de Gerenciamento de EPI',
+    description: 'Plataforma para controle de entrega, validade e histórico de EPIs por colaborador. Organiza itens por setor, gera alertas de reposição e mantém registros auditáveis.',
+    image: '/grupo0120251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo01projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-02-2025-1',
+    groupNumber: 2,
+    semester: '2025.1',
+    name: 'E-commerce de Relógios',
+    description: 'Loja virtual focada em relógios com catálogo, busca e vitrine por marca. Fluxo de compra simples com carrinho, pedido e acompanhamento.',
+    image: '/grupo0220251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo02projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-03-2025-1',
+    groupNumber: 3,
+    semester: '2025.1',
+    name: 'E-commerce de Perfumes',
+    description: 'Site de vendas de perfumes com navegação por categorias e destaques. Inclui página de produto, carrinho e finalização de compra.',
+    image: '/grupo0320251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo03projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-04-2025-1',
+    groupNumber: 4,
+    semester: '2025.1',
+    name: 'Site de Construtora',
+    description: 'Website institucional de construtora com portfólio de obras, serviços e contato. Estrutura clara para apresentar projetos e credibilidade da empresa.',
+    image: '/grupo0420251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo04projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-05-2025-1',
+    groupNumber: 5,
+    semester: '2025.1',
+    name: 'E-commerce de Relógios',
+    description: 'E-commerce de relógios com catálogo organizado por estilo e faixa de preço. Experiência de compra direta e páginas de produto detalhadas.',
+    image: '/grupo0520251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo05projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-06-2025-1',
+    groupNumber: 6,
+    semester: '2025.1',
+    name: 'Site de Petshop',
+    description: 'Site para petshop com serviços, produtos e agendamento. Apresenta planos de banho e tosa, além de informações de contato.',
+    image: '/grupo0620251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo06projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-07-2025-1',
+    groupNumber: 7,
+    semester: '2025.1',
+    name: 'E-commerce de Cosméticos',
+    description: 'Loja online de cosméticos com destaque para lançamentos e promoções. Catálogo com filtros, página de produto e carrinho.',
+    image: '/grupo0720251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo07projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-11-2025-1',
+    groupNumber: 11,
+    semester: '2025.1',
+    name: 'Relatórios de Segurança',
+    description: 'Sistema para criação e organização de relatórios de segurança. Centraliza registros, gera documentos e acompanha histórico de inspeções.',
+    image: '/grupo1120251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo11projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-12-2025-1',
+    groupNumber: 12,
+    semester: '2025.1',
+    name: 'Sistema de Gerenciamento Portuário',
+    description: 'Plataforma para organizar operações portuárias, com cadastro de cargas e acompanhamento de movimentações. Foco em visibilidade e controle.',
+    image: '/grupo1220251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo12projeto20251.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-13-2025-1',
+    groupNumber: 13,
+    semester: '2025.1',
+    name: 'E-commerce de Tênis',
+    description: 'E-commerce de tênis com vitrines por marca e categoria. Inclui carrinho e processo de compra objetivo.',
+    image: '/grupo1320251.png',
+    technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
+    students: [],
+    stack: {
+      frontend: 'HTML + CSS + JavaScript',
+      backend: 'Spring Boot',
+    },
+    liveUrl: 'https://grupo13projeto20251.escolatecnicaadelia.info',
+  },
 ];
 
 // Função auxiliar para obter projetos por ranking
@@ -300,5 +460,10 @@ export const getTopProjects = () => {
 
 // Função auxiliar para obter todos os projetos ordenados por grupo
 export const getAllProjects = () => {
-  return projects.sort((a, b) => a.groupNumber - b.groupNumber);
+  return projects.sort((a, b) => {
+    if (a.semester !== b.semester) {
+      return a.semester === '2025.2' ? -1 : 1;
+    }
+    return a.groupNumber - b.groupNumber;
+  });
 };

@@ -168,6 +168,9 @@ export default function Hero() {
                 <img
                   src="/Alunos.jpg"
                   alt="Alunos do Projeto Integrador"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
                   className="relative rounded-3xl shadow-2xl w-full h-auto object-cover border-4 border-white/30"
                 />
               </div>

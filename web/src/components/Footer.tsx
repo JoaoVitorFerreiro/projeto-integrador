@@ -23,6 +23,8 @@ export default function Footer() {
               <img
                 src="/logo.png"
                 alt="Escola Técnica Adélia"
+                loading="lazy"
+                decoding="async"
                 className="h-10 w-auto"
                 onError={(e) => {
                   (e.target as HTMLImageElement).style.display = 'none';

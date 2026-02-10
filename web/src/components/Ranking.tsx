@@ -66,7 +66,9 @@ export default function Ranking() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src="/GrupoGanhador.jpeg"
-                  alt="Alunos Destaque - Grupo 1"
+                  alt="Alunos Destaque - Foto 1"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
@@ -74,7 +76,9 @@ export default function Ranking() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src="/GrupoGanhador2.jpeg"
-                  alt="Alunos Destaque - Grupo 2"
+                  alt="Alunos Destaque - Foto 2"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
@@ -102,14 +106,6 @@ export default function Ranking() {
 
                   {/* Content */}
                   <div className="p-6">
-                    <div className="text-center mb-4">
-                      <div className="inline-block px-4 py-1 bg-gray-100 rounded-full">
-                        <span className="text-sm font-semibold text-gray-600">
-                          Grupo {topProjects[1].groupNumber}
-                        </span>
-                      </div>
-                    </div>
-
                     <h4 className="text-xl font-bold text-primary mb-2">
                       {topProjects[1].name}
                     </h4>
@@ -161,14 +157,6 @@ export default function Ranking() {
 
                   {/* Content */}
                   <div className="p-6">
-                    <div className="text-center mb-4">
-                      <div className="inline-block px-4 py-1 bg-yellow-100 rounded-full">
-                        <span className="text-sm font-semibold text-yellow-700">
-                          Grupo {topProjects[0].groupNumber}
-                        </span>
-                      </div>
-                    </div>
-
                     <h4 className="text-2xl font-bold text-primary mb-3">
                       {topProjects[0].name}
                     </h4>
@@ -215,14 +203,6 @@ export default function Ranking() {
 
                   {/* Content */}
                   <div className="p-6">
-                    <div className="text-center mb-4">
-                      <div className="inline-block px-4 py-1 bg-amber-100 rounded-full">
-                        <span className="text-sm font-semibold text-amber-700">
-                          Grupo {topProjects[2].groupNumber}
-                        </span>
-                      </div>
-                    </div>
-
                     <h4 className="text-xl font-bold text-primary mb-2">
                       {topProjects[2].name}
                     </h4>
