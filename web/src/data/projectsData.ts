@@ -1,28 +1,16 @@
-import type { Project } from '../types';
+import type { Project, Semester, Theme } from '../types';
 
 export const projects: Project[] = [
   {
     id: 'grupo-01',
     groupNumber: 1,
     semester: '2025.2',
+    theme: 'Eletrotécnica',
     name: 'Sistema Gerenciador de Estacionamento',
     description: 'Solução inteligente para gestão de estacionamentos com integração IoT. Utiliza sensores, LEDs e Arduino com controle de motor para automação completa. Monitora vagas em tempo real, controla cancelas automaticamente e oferece relatórios detalhados de ocupação.',
     image: '/Grupo01.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Tiago de Arruda Oliveira',
-        role: 'Líder',
-      },
-      {
-        name: 'Luciano Augusto dos Santos Lins Filho',
-        role: 'Backend',
-      },
-      {
-        name: 'Vitória Conceição de Melo Santos',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'React + TypeScript',
       backend: 'Node.js',
@@ -34,24 +22,12 @@ export const projects: Project[] = [
     id: 'grupo-02',
     groupNumber: 2,
     semester: '2025.2',
+    theme: 'Farmácia',
     name: 'Sistema de Estoque Farmacêutico',
     description: 'Plataforma completa para gerenciamento farmacêutico hospitalar. Controla entrada e saída de medicamentos com diferentes níveis de acesso para médicos, farmacêuticos e enfermeiros. Inclui rastreamento de lotes, alertas de vencimento e relatórios de consumo.',
     image: '/Grupo02.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Hualana Dar\'c Ferreira Nunes',
-        role: 'Líder',
-      },
-      {
-        name: 'Grazielle Lima Fonseca',
-        role: 'Backend',
-      },
-      {
-        name: 'Christian Wendel de Carvalho Araújo',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'React + TypeScript',
       backend: 'Node.js',
@@ -63,24 +39,12 @@ export const projects: Project[] = [
     id: 'grupo-04',
     groupNumber: 4,
     semester: '2025.2',
+    theme: 'Administração',
     name: 'Odonto Prime - Clínica Odontológica',
     description: 'Sistema completo para clínicas odontológicas com CRM integrado. Gerencia venda de planos odontológicos, agendamento inteligente de consultas, histórico de pacientes e controle financeiro. Interface moderna para dentistas e pacientes.',
     image: '/Grupo04.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Esther Chagas da Silva',
-        role: 'Líder',
-      },
-      {
-        name: 'Debora Santos Silva',
-        role: 'Backend',
-      },
-      {
-        name: 'Pedro Henrique Rodrigues Xavier',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'Angular',
       backend: 'Spring Boot',
@@ -92,24 +56,12 @@ export const projects: Project[] = [
     id: 'grupo-05',
     groupNumber: 5,
     semester: '2025.2',
+    theme: 'Administração',
     name: 'Mania Cookie - E-commerce de Cookies',
     description: 'Plataforma de e-commerce especializada em confeitaria artesanal. Sistema completo de vendas online com catálogo de produtos, carrinho de compras, gestão de pedidos e entregas. Inclui CRM para fidelização de clientes e controle de estoque de ingredientes.',
     image: '/Grupo05.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Miguel Ribeiro Vão',
-        role: 'Líder',
-      },
-      {
-        name: 'Kennedy Ribeiro Flávio',
-        role: 'Backend',
-      },
-      {
-        name: 'Igor Negrão de Oliveira Mamede',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'React',
       backend: 'Node.js',
@@ -121,24 +73,12 @@ export const projects: Project[] = [
     id: 'grupo-07',
     groupNumber: 7,
     semester: '2025.2',
+    theme: 'Segurança do Trabalho',
     name: 'Sistema de Gerenciamento de EPI',
     description: 'Solução profissional para gestão de Equipamentos de Proteção Individual. Controla vencimentos, organiza distribuição por funcionário, gera alertas automáticos e mantém histórico completo de entregas. Ideal para empresas que priorizam segurança do trabalho.',
     image: '/Grupo07.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Micaeli Alves de Sá',
-        role: 'Líder',
-      },
-      {
-        name: 'Andrey Corsi MG Guedes de Moura',
-        role: 'Backend',
-      },
-      {
-        name: 'Abner Batista Rodrigues Feitosa',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'React',
       backend: 'Python + FastAPI',
@@ -152,24 +92,12 @@ export const projects: Project[] = [
     id: 'grupo-08',
     groupNumber: 8,
     semester: '2025.2',
+    theme: 'Administração',
     name: 'CapsuBel - E-commerce de Encapsulados',
     description: 'Loja virtual especializada em produtos capilares femininos. Oferece cápsulas de tratamento capilar com sistema de vendas online, gerenciamento de estoque e CRM completo. Inclui sistema de recomendações personalizadas e programa de fidelidade.',
     image: '/Grupo08.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Gabriel Barreto Santos',
-        role: 'Líder',
-      },
-      {
-        name: 'Matheus Policarpo Borges dos Santos',
-        role: 'Backend',
-      },
-      {
-        name: 'Samir El Kadissi',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'Vue.js',
       backend: 'Node.js',
@@ -181,24 +109,12 @@ export const projects: Project[] = [
     id: 'grupo-09',
     groupNumber: 9,
     semester: '2025.2',
+    theme: 'Administração',
     name: 'Unique - E-commerce de Moda Feminina',
     description: 'Plataforma moderna de vendas de roupas femininas. Sistema completo com catálogo virtual, gestão de estoque por tamanho e cor, controle de vendas e CRM integrado. Interface elegante com filtros avançados e sistema de avaliações de produtos.',
     image: '/Grupo09.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Daniel Silva Ferreira',
-        role: 'Líder',
-      },
-      {
-        name: 'Kelvin Iarley Aguiar Bezerra',
-        role: 'Backend',
-      },
-      {
-        name: 'Davi Freitas da Silva',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'React',
       backend: 'Django',
@@ -210,24 +126,12 @@ export const projects: Project[] = [
     id: 'grupo-10',
     groupNumber: 10,
     semester: '2025.2',
+    theme: 'Farmácia',
     name: 'Sistema de Depósito de Medicamentos',
     description: 'Sistema avançado para controle de depósito farmacêutico. Gerencia entrada e saída de medicamentos com controle de acesso por perfil (médicos, farmacêuticos, enfermeiros). Oferece rastreabilidade completa, alertas de validade e relatórios de movimentação.',
     image: '/Grupo10.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Nicole Alves Vale',
-        role: 'Líder',
-      },
-      {
-        name: 'Bruno Henrique Agria Leite',
-        role: 'Backend',
-      },
-      {
-        name: 'Odair Eduardo Ferreira da Silva',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'Angular',
       backend: 'NestJS',
@@ -239,24 +143,12 @@ export const projects: Project[] = [
     id: 'grupo-11',
     groupNumber: 11,
     semester: '2025.2',
+    theme: 'Farmácia',
     name: 'Sistema Farmacêutico Hospitalar',
     description: 'Plataforma robusta para gestão farmacêutica em ambiente hospitalar. Controla estoque de medicamentos, gerencia prescrições médicas e medicamentos controlados. Sistema de autorizações por perfil, rastreamento de lotes e geração de relatórios gerenciais.',
     image: '/Grupo11.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Caio dos Santos Serra',
-        role: 'Líder',
-      },
-      {
-        name: 'Henrique Alves de Souza',
-        role: 'Backend',
-      },
-      {
-        name: 'Pedro Henrique de Silva Farias',
-        role: 'Frontend',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'React',
       backend: 'Express',
@@ -269,28 +161,12 @@ export const projects: Project[] = [
     id: 'grupo-12',
     groupNumber: 12,
     semester: '2025.2',
+    theme: 'Segurança do Trabalho',
     name: 'Sistema de Segurança do Trabalho',
     description: 'Solução completa para gestão de segurança ocupacional. Controla EPIs, gerencia treinamentos obrigatórios, realiza análise de riscos e mantém documentação de segurança. Sistema de alertas para renovações e vencimentos, garantindo conformidade com normas regulamentadoras.',
     image: '/Grupo12.png',
     technologies: ['React', 'Node.js'],
-    students: [
-      {
-        name: 'Jonatas Meio Fonseca da Luz',
-        role: 'Líder',
-      },
-      {
-        name: 'Guilherme Machado Segovia',
-        role: 'Backend',
-      },
-      {
-        name: 'Daniel Nascimento dos Santos',
-        role: 'Frontend',
-      },
-      {
-        name: 'Murilo Cavalcante de Sousa',
-        role: 'FullStack',
-      },
-    ],
+    students: [],
     stack: {
       frontend: 'Next.js',
       backend: 'Node.js',
@@ -303,6 +179,7 @@ export const projects: Project[] = [
     id: 'grupo-01-2025-1',
     groupNumber: 1,
     semester: '2025.1',
+    theme: 'Segurança do Trabalho',
     name: 'Sistema de Gerenciamento de EPI',
     description: 'Plataforma para controle de entrega, validade e histórico de EPIs por colaborador. Organiza itens por setor, gera alertas de reposição e mantém registros auditáveis.',
     image: '/grupo0120251.png',
@@ -318,6 +195,7 @@ export const projects: Project[] = [
     id: 'grupo-02-2025-1',
     groupNumber: 2,
     semester: '2025.1',
+    theme: 'Administração',
     name: 'E-commerce de Relógios',
     description: 'Loja virtual focada em relógios com catálogo, busca e vitrine por marca. Fluxo de compra simples com carrinho, pedido e acompanhamento.',
     image: '/grupo0220251.png',
@@ -333,6 +211,7 @@ export const projects: Project[] = [
     id: 'grupo-03-2025-1',
     groupNumber: 3,
     semester: '2025.1',
+    theme: 'Administração',
     name: 'E-commerce de Perfumes',
     description: 'Site de vendas de perfumes com navegação por categorias e destaques. Inclui página de produto, carrinho e finalização de compra.',
     image: '/grupo0320251.png',
@@ -348,6 +227,7 @@ export const projects: Project[] = [
     id: 'grupo-04-2025-1',
     groupNumber: 4,
     semester: '2025.1',
+    theme: 'Administração',
     name: 'Site de Construtora',
     description: 'Website institucional de construtora com portfólio de obras, serviços e contato. Estrutura clara para apresentar projetos e credibilidade da empresa.',
     image: '/grupo0420251.png',
@@ -363,6 +243,7 @@ export const projects: Project[] = [
     id: 'grupo-05-2025-1',
     groupNumber: 5,
     semester: '2025.1',
+    theme: 'Administração',
     name: 'E-commerce de Relógios',
     description: 'E-commerce de relógios com catálogo organizado por estilo e faixa de preço. Experiência de compra direta e páginas de produto detalhadas.',
     image: '/grupo0520251.png',
@@ -378,6 +259,7 @@ export const projects: Project[] = [
     id: 'grupo-06-2025-1',
     groupNumber: 6,
     semester: '2025.1',
+    theme: 'Administração',
     name: 'Site de Petshop',
     description: 'Site para petshop com serviços, produtos e agendamento. Apresenta planos de banho e tosa, além de informações de contato.',
     image: '/grupo0620251.png',
@@ -393,6 +275,7 @@ export const projects: Project[] = [
     id: 'grupo-07-2025-1',
     groupNumber: 7,
     semester: '2025.1',
+    theme: 'Administração',
     name: 'E-commerce de Cosméticos',
     description: 'Loja online de cosméticos com destaque para lançamentos e promoções. Catálogo com filtros, página de produto e carrinho.',
     image: '/grupo0720251.png',
@@ -408,6 +291,7 @@ export const projects: Project[] = [
     id: 'grupo-11-2025-1',
     groupNumber: 11,
     semester: '2025.1',
+    theme: 'Segurança do Trabalho',
     name: 'Relatórios de Segurança',
     description: 'Sistema para criação e organização de relatórios de segurança. Centraliza registros, gera documentos e acompanha histórico de inspeções.',
     image: '/grupo1120251.png',
@@ -423,6 +307,7 @@ export const projects: Project[] = [
     id: 'grupo-12-2025-1',
     groupNumber: 12,
     semester: '2025.1',
+    theme: 'Portos',
     name: 'Sistema de Gerenciamento Portuário',
     description: 'Plataforma para organizar operações portuárias, com cadastro de cargas e acompanhamento de movimentações. Foco em visibilidade e controle.',
     image: '/grupo1220251.png',
@@ -438,6 +323,7 @@ export const projects: Project[] = [
     id: 'grupo-13-2025-1',
     groupNumber: 13,
     semester: '2025.1',
+    theme: 'Administração',
     name: 'E-commerce de Tênis',
     description: 'E-commerce de tênis com vitrines por marca e categoria. Inclui carrinho e processo de compra objetivo.',
     image: '/grupo1320251.png',
@@ -449,6 +335,204 @@ export const projects: Project[] = [
     },
     liveUrl: 'https://grupo13projeto20251.escolatecnicaadelia.info',
   },
+
+  // ===========================================================================
+  // 3ª Edição — 2026.1
+  // ===========================================================================
+  {
+    id: 'grupo-01-2026-1',
+    groupNumber: 1,
+    semester: '2026.1',
+    theme: 'Segurança do Trabalho',
+    name: 'Cadastro e Controle de Extintores',
+    description: 'Sistema para cadastro e gestão de extintores de incêndio. Controla localização, tipo, capacidade e datas de recarga e inspeção, com alertas de vencimento para garantir conformidade com as normas de segurança.',
+    image: '/grupo01projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo01projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-02-2026-1',
+    groupNumber: 2,
+    semester: '2026.1',
+    theme: 'Eletrotécnica',
+    name: 'Monitoramento de Cozinha Industrial',
+    description: 'Sistema de monitoramento para cozinhas industriais. Acompanha condições de operação dos equipamentos em tempo real, registra leituras e gera alertas, apoiando a manutenção e a segurança do ambiente.',
+    image: '/grupo02projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo02projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-03-2026-1',
+    groupNumber: 3,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Chás',
+    description: 'Loja virtual de chás com foco em bem-estar. Catálogo organizado por benefício e tipo, página de produto, carrinho e finalização de compra.',
+    image: '/grupo03projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo03projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-04-2026-1',
+    groupNumber: 4,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Gel Cicatrizante',
+    description: 'Plataforma de vendas de gel cicatrizante e produtos para cuidados com a pele. Catálogo com filtros, descrição detalhada dos produtos, carrinho e fluxo de compra completo.',
+    image: '/grupo04projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo04projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-05-2026-1',
+    groupNumber: 5,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Produtos para Alívio da TPM',
+    description: 'Loja online de produtos cosméticos e de bem-estar voltados ao alívio dos sintomas da TPM. Catálogo segmentado, recomendações e processo de compra simples e direto.',
+    image: '/grupo05projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo05projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-06-2026-1',
+    groupNumber: 6,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Spray para Controle de Espinhas',
+    description: 'E-commerce especializado em spray para controle de espinhas e cuidados com a pele. Vitrine de produtos, página de detalhes, carrinho e finalização de pedido.',
+    image: '/grupo06projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo06projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-07-2026-1',
+    groupNumber: 7,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Gel para Lábios',
+    description: 'Loja virtual de gel e produtos cosméticos para os lábios. Catálogo atrativo, página de produto, carrinho de compras e checkout.',
+    image: '/grupo07projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo07projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-08-2026-1',
+    groupNumber: 8,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Gel Corporal',
+    description: 'Plataforma de vendas de gel corporal e produtos para cuidados com o corpo. Catálogo com filtros, descrição dos produtos, carrinho e fluxo de compra completo.',
+    image: '/grupo08projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo08projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-09-2026-1',
+    groupNumber: 9,
+    semester: '2026.1',
+    theme: 'Eletrotécnica',
+    name: 'Monitoramento de Cozinha Industrial',
+    description: 'Sistema de monitoramento para cozinhas industriais. Acompanha o funcionamento dos equipamentos, registra dados de operação e emite alertas, contribuindo para a segurança e a eficiência do ambiente.',
+    image: '/grupo09projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo09projeto20261.escolatecnicaadelia.info',
+    ranking: 2, // Vice-campeão
+  },
+  {
+    id: 'grupo-10-2026-1',
+    groupNumber: 10,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Creme Hidratante',
+    description: 'Loja online de cremes hidratantes e produtos cosméticos para a pele. Catálogo organizado, página de produto, carrinho e finalização de compra.',
+    image: '/grupo10projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo10projeto20261.escolatecnicaadelia.info',
+    ranking: 1, // Campeão
+  },
+  {
+    id: 'grupo-11-2026-1',
+    groupNumber: 11,
+    semester: '2026.1',
+    theme: 'Segurança do Trabalho',
+    name: 'Gestão de EPI e Exames Admissionais',
+    description: 'Sistema para gestão de Equipamentos de Proteção Individual e controle de exames admissionais. Organiza entregas de EPI, registra exames e datas, e gera alertas para renovações e vencimentos.',
+    image: '/grupo11projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo11projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-12-2026-1',
+    groupNumber: 12,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Óleo Corporal',
+    description: 'E-commerce de óleos corporais e produtos cosméticos para cuidados com o corpo. Vitrine de produtos, página de detalhes, carrinho e checkout.',
+    image: '/grupo12projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo12projeto20261.escolatecnicaadelia.info',
+  },
+  {
+    id: 'grupo-13-2026-1',
+    groupNumber: 13,
+    semester: '2026.1',
+    theme: 'Farmácia',
+    name: 'E-commerce de Creme Facial',
+    description: 'Loja virtual de cremes faciais e produtos cosméticos para o rosto. Catálogo com filtros, página de produto, carrinho e fluxo de compra completo.',
+    image: '/grupo13projeto20261.png',
+    technologies: ['React', 'Node.js'],
+    students: [],
+    stack: { frontend: 'React', backend: 'Node.js' },
+    liveUrl: 'https://grupo13projeto20261.escolatecnicaadelia.info',
+  },
+];
+
+// Edições por semestre (usadas como tag)
+export const SEMESTER_TO_EDITION: Record<Semester, number> = {
+  '2025.1': 1,
+  '2025.2': 2,
+  '2026.1': 3,
+};
+
+export const getEditionNumber = (semester: Semester) => SEMESTER_TO_EDITION[semester];
+
+export const getEditionLabel = (semester: Semester) =>
+  `${getEditionNumber(semester)}ª Edição`;
+
+export const getEditionYear = (semester: Semester) => semester.split('.')[0];
+
+// Temas disponíveis para o filtro
+export const THEMES: Theme[] = [
+  'Administração',
+  'Segurança do Trabalho',
+  'Farmácia',
+  'Portos',
+  'Eletrotécnica',
 ];
 
 // Função auxiliar para obter projetos por ranking
@@ -458,11 +542,19 @@ export const getTopProjects = () => {
     .sort((a, b) => (a.ranking || 0) - (b.ranking || 0));
 };
 
-// Função auxiliar para obter todos os projetos ordenados por grupo
+// Função auxiliar para obter o pódio (projetos rankeados) de um semestre/edição
+export const getTopProjectsBySemester = (semester: Semester) => {
+  return projects
+    .filter(p => p.semester === semester && p.ranking)
+    .sort((a, b) => (a.ranking || 0) - (b.ranking || 0));
+};
+
+// Função auxiliar para obter todos os projetos ordenados por edição (mais recente
+// primeiro) e por número de grupo
 export const getAllProjects = () => {
-  return projects.sort((a, b) => {
+  return [...projects].sort((a, b) => {
     if (a.semester !== b.semester) {
-      return a.semester === '2025.2' ? -1 : 1;
+      return getEditionNumber(b.semester) - getEditionNumber(a.semester);
     }
     return a.groupNumber - b.groupNumber;
   });

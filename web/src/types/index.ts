@@ -13,10 +13,20 @@ export interface Stack {
   cloud?: string;
 }
 
+export type Semester = '2025.1' | '2025.2' | '2026.1';
+
+export type Theme =
+  | 'Administração'
+  | 'Segurança do Trabalho'
+  | 'Farmácia'
+  | 'Portos'
+  | 'Eletrotécnica';
+
 export interface Project {
   id: string;
   groupNumber: number;
-  semester: '2025.2' | '2025.1';
+  semester: Semester;
+  theme: Theme;
   name: string;
   description: string;
   image: string;
