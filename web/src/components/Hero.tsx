@@ -28,6 +28,11 @@ export default function Hero() {
     projectsSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToLatestEdition = () => {
+    const section = document.getElementById('ultima-edicao');
+    section?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-primary-dark pt-20 pb-16">
       {/* Animated Orbs */}
@@ -124,18 +129,30 @@ export default function Hero() {
                 Soluções práticas e inovadoras que unem conhecimento técnico e criatividade.
               </motion.p>
 
-              {/* CTA Button */}
-              <motion.button
+              {/* CTA Buttons */}
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={scrollToProjects}
-                className="bg-secondary-yellow hover:bg-yellow-500 text-gray-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
               >
-                Ver Projetos Desenvolvidos
-              </motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={scrollToProjects}
+                  className="bg-secondary-yellow hover:bg-yellow-500 text-gray-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                >
+                  Ver Projetos Desenvolvidos
+                </motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={scrollToLatestEdition}
+                  className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-bold px-8 py-4 rounded-full text-lg border-2 border-white/60 shadow-lg transition-all duration-300"
+                >
+                  Ver Última Edição
+                </motion.button>
+              </motion.div>
 
               {/* Feature Badges */}
               <motion.div

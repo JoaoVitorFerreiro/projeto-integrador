@@ -13,7 +13,7 @@ export interface Stack {
   cloud?: string;
 }
 
-export type Semester = '2025.1' | '2025.2' | '2026.1';
+export type Semester = '2025.1' | '2025.2' | '2026.1' | '2026.2';
 
 export type Theme =
   | 'Administração'

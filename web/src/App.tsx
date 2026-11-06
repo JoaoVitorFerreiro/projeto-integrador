@@ -1,6 +1,7 @@
 import { Toaster } from 'react-hot-toast';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Apresentacoes from './components/Apresentacoes';
 import Ranking from './components/Ranking';
 import Projects from './components/Projects';
 // import Team from './components/Team';
@@ -40,6 +41,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Apresentacoes />
         <Ranking />
         <Projects />
         {/* <Team /> */}

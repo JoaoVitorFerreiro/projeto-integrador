@@ -517,6 +517,7 @@ export const SEMESTER_TO_EDITION: Record<Semester, number> = {
   '2025.1': 1,
   '2025.2': 2,
   '2026.1': 3,
+  '2026.2': 4,
 };
 
 export const getEditionNumber = (semester: Semester) => SEMESTER_TO_EDITION[semester];
